@@ -36,7 +36,7 @@ public class Reinforce extends JavaPlugin {
     		return 95;	
     	}
     	    	
-    	if(entlev > 3 || entlev < 9)
+    	if(entlev > 3 && entlev < 9)
     	{
     		return 85 - (10 * (entlev - 4));
     	}
